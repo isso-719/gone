@@ -19,3 +19,6 @@ $ gone
 ```
 MIT License
 ```
+
+## Author
+- [isso-719](https://github.com/isso-719)

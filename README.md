@@ -5,7 +5,7 @@ Go で「ゴーン」という音を鳴らして、煩悩を払い去る CLI コ
 ## Installation
 
 ```sh
-$ go install github.com/isso-719/gone
+$ go install github.com/isso-719/gone@latest
 ```
 
 ## Usage

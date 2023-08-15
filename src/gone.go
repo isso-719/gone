@@ -8,12 +8,11 @@ import (
 	"github.com/faiface/beep/speaker"
 	"log"
 	"os"
-	"path/filepath"
 	"time"
 )
 
 func playSound(fs embed.FS) {
-	f, err := os.Open(filepath.Join("audio", "gone.mp3"))
+	f, err := fs.Open("audio/gone.mp3")
 	if err != nil {
 		log.Fatal(err)
 	}
